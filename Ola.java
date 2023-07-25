@@ -7,7 +7,7 @@ public class Ola<O> {
         this.next = next;
     }
 
-    public (O prew) {
+    public (O, prew) {
         this(prew, null);
     }
 

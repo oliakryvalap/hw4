@@ -65,8 +65,8 @@ public class Main {
 
         GBList<String> strList = new MenuList<>();
         GBList<Integer> stringList;
-        stringList.add("ola");
-        stringList.add("la-la");
+        strList.add("ola");
+        strList.add("la-la");
         System.out.println(strList.get(1));
 }
 }

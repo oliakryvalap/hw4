@@ -60,12 +60,12 @@ public class MenuList<O> implements GBList<O> {
 
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append("{");
-        Ola<O> node = head;
-        stringBuilder.append(node.value);
-        while (node.next != null){
-            node = node.next;
+        Ola<O> Ola = head;
+        stringBuilder.append(Ola.prew);
+        while (Ola.next != null){
+            Ola = Ola.next;
             stringBuilder.append(", ");
-            stringBuilder.append(node.value);
+            stringBuilder.append(Ola);
         }
         stringBuilder.append("}");
 
